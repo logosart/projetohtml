@@ -14,7 +14,7 @@ body{
     width:100%;
     height:100vh;
     font-family:URW Chancery L, cursive;
-    background: linear-gradient(-45deg,#0F0E61,pink);
+    background-color: grey;
 }
 .title{
     transform: translate(-15%,-50%);
@@ -52,11 +52,13 @@ input{
 #button{
     transform: translate(0%,20%);
     margin: 5px 10px 5px 65px;
-}body{
+}
+
+body{
     width:100%;
     height:100vh;
     font-family:URW Chancery L, cursive;
-    background: linear-gradient(-45deg,#0F0E61,pink);
+    
 }
 .title{
     transform: translate(-15%,-50%);
