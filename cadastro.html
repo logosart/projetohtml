@@ -15,7 +15,7 @@
             <div class= "input">
                 <input id="username" name="usuario" placeholder= "usuario" type="text">
             </div>
-            <label for="email"</label>
+            <label for="email" </label>
             <div class="input">
                  <input id="email" name="email" placeholder="email" type="text">
             <label for="senha"></label>

@@ -28,45 +28,43 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background: linear-gradient(-45deg,#ffffff,white);
+    background: white;
     border-radius:10px;
-    padding: 70px 20px 20px 20px;
-
+    padding: 70px;
+    width: min-content;
     align-items: center;
     color: black;
+    height:30%;
 }
 
 input{
     width: 200px;
     height: 20px;
     border-radius: 22px;
-    padding: 2px;
+    padding: 1px;
     border: 2px ,black solid;
     margin: 0px 5px 5px 0px;
 }
+.buttonmaster{
+    width: 10px;
+    position: relative;
+    align-items: center;
+    left:35%;
+    background-color: transparent;
+    top: 20px;
+}
 
 .button{
-    font-size: 5px; 
-    border-color: #000000;
-    text-align: center;
-    position: relative;
-    top: 50px; 
-    left: 60px;
-    border-radius: 50px;
-    background-color: white;
-    width: 80px;
-    transition-duration: 0.4s;
-    border: 1px solid black;
+    background-color: grey;
+    border-color: transparent;
+    color: black;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family:URW Chancery L, cursive;
+    
 }
 
-.button1{
-    font-size: 1.5px;
-    border:0px;
-    border-radius:50px;
-    width: 80px;
-}
-
-.button:hover ,.button1:hover{
-    background-color: #a474f1;
-    color: white;
+.button:hover{
+    background-color: rgb(206, 28, 250);
+    color:white;
 }

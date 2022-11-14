@@ -22,8 +22,8 @@
             </label>
             </div> 
         
-            <div class= "button">
-                <button class="button1" href= home.html type="submit" onclick="alert('Bem-vindo')">Logar</button>
+            <div class= "buttonmaster">
+                <button class="button" href= home.html type="submit" onclick="alert('Bem-vindo')">Logar</button>
             </div>
         </form>
     </div>
