@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,6 +20,7 @@
     </nav> 
 </head>
 <body>
+    
     <form class="bloco1">
         <h1 class="texto1 " >Entregar atividades</h1>
     </form>
@@ -26,5 +28,10 @@
         <h1 class="texto2"> Consulte o seu rank.</h1>
         <a id="btnotas" href="perfil.html" action="url" type="submit" >CONSULTAR</a>
     </form>
+
+    <?php
+        echo "primeiro comando php";
+    exit;
+    ?>
 </body>
 </html>
