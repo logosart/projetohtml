@@ -29,9 +29,5 @@
         <a id="btnotas" href="perfil.html" action="url" type="submit" >CONSULTAR</a>
     </form>
 
-    <?php
-        echo "primeiro comando php";
-    exit;
-    ?>
 </body>
 </html>

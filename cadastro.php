@@ -9,7 +9,7 @@
 
 <body>
     <div id="form">
-        <form action="">
+        <form action="scriptcadastro.php" method="post" name="form_cadastro">
             <h2 class="title">Cadastro</h2>
             <label for="username"></label>
             <div class= "input">
@@ -30,5 +30,8 @@
                 <button type="submit">Cadastrar</button>
             </div>
         </form>
+
 </body>
+
 </html>
+

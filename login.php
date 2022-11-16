@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="style/login.css"
 </head>
 <body>
-    <div class= "form">
-            <form action= "">
+    <div class= "form"  >
+        <form action= "scriptcadastro.php" method="POST" name="login">
             <h2 class="title"> Logar </h2>
             
             <div class="usuario">
@@ -23,7 +23,7 @@
             </div> 
         
             <div class= "buttonmaster">
-                <button class="button" href= home.html type="submit" onclick="alert('Bem-vindo')">Logar</button>
+                <button class="button" value="entrar" id="entrar" href= home.php type="submit" onclick="alert('Bem-vindo')">Logar</button>
             </div>
         </form>
     </div>
