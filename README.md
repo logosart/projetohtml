@@ -1,4 +1,4 @@
-<h1 align="center"> 𝓣𝓻𝓪𝓫𝓪𝓵𝓱𝓸 𝓕𝓵𝓪𝓼𝓴 </h1>
+<h1 align="center"> 𝑮𝒂𝒎𝒊𝒇𝒊𝒄𝒂𝒄̧𝒂̃𝒐 𝒏𝒂 𝑬𝒅𝒖𝒄𝒂𝒄̧𝒂̃𝒐</h1>
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 ![Mysql](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
