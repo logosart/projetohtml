@@ -17,7 +17,9 @@ Vamos progamar utilizando o pycharm como editor de código, o PHP voltado para d
 
 O GitHub é um serviço baseado em nuvem que hospeda um sistema de controle de versão (VCS) chamado Git. Ele permite que os desenvolvedores colaborem e façam mudanças em projetos compartilhados enquanto mantêm um registro detalhado do seu progresso.
 
-O HTML e CSS são importantes para o desenvolvimento, HTML É uma linguagem baseada em marcação, onde marcamos os elementos para definir quais informações a página vai exibir. CSS é uma linguagem de folha de estilo composta por “camadas”, criado com o propósito de estilizar as páginas HTML, ou seja, definir a aparência das páginas, para deixá-las visualmente mais bonitas e agradáveis. </p>
+O HTML e CSS são importantes para o desenvolvimento, HTML É uma linguagem baseada em marcação, onde marcamos os elementos para definir quais informações a página vai exibir. CSS é uma linguagem de folha de estilo composta por “camadas”, criado com o propósito de estilizar as páginas HTML, ou seja, definir a aparência das páginas, para deixá-las visualmente mais bonitas e agradáveis. 
+    
+O PHP é uma linguagem de programação de código aberto, criada para o desenvolvimento web. Com ela podemos escrever pequenos scripts de forma procedural, utilizar a orientação e objetos ou ainda ambas. </p>
 </details>
 
 <details>
