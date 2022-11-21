@@ -8,7 +8,6 @@ $con=conexao_bd('mysql');
 function conexao_bd($tipo_bd){
 
 	if($tipo_bd == 'mysql'){
-
 		$mysqli = new mysqli($GLOBALS['db_host'], $GLOBALS['bd_usuario'], $GLOBALS['bd_senha']);
 		// $mysqli = new mysqli('www.wodbrasil.com', $GLOBALS['bd_usuario'], $GLOBALS['bd_senha']);
 	
@@ -56,4 +55,6 @@ $con->query("INSERT INTO sys.usuarios(usuario, email, senha)VALUES('".$_REQUEST[
 
 
 $conexao= mysqli_connect("localhost","root","luquetes10","sys") or die("não deu");
+$user= $con->query;
+print_r($user);
 ?>
