@@ -5,6 +5,7 @@
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![HTMML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
+![GITHUB](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 
 # **Descrição do Projeto**
 Iremos realizar um portal acadêmico com implementações de gameficação. A gamificação trata de utilizar de processos e ferramentas como avatares, progressos, pontuação, rankings e prêmios dentro do ambiente estudantil.
