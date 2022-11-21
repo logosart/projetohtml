@@ -55,3 +55,5 @@ $con->query("INSERT INTO sys.usuarios(usuario, email, senha)VALUES('".$_REQUEST[
 
 
 
+$conexao= mysqli_connect("localhost","root","luquetes10","sys") or die("não deu");
+?>

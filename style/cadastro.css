@@ -16,6 +16,7 @@ body{
     font-family:URW Chancery L, cursive;
     background-color: grey;
 }
+
 .title{
     transform: translate(-15%,-50%);
     font-size: 1.0em;
