@@ -152,3 +152,78 @@ nav{
     border-radius: 15px;
 }
 
+.btnatividades{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    background-color: transparent;
+    border: 0px;
+    position:absolute; 
+    top:30%;
+    left:20%;
+    
+}
+
+.imgatividade{
+    position:relative;
+    left: 15%;
+    width: 4%;
+    top: 130px;
+}
+
+.btnnotas{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    background-color: transparent;
+    border: 0px;
+    position:absolute; 
+    top:30%;
+    left:50%;
+    
+}
+
+.imgnotas{
+    position:relative;
+    left: 41%;
+    width: 4%;
+    top: 130px;
+}
+
+.btnperfil{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    background-color: transparent;
+    border: 0px;
+    position:absolute; 
+    top:30%;
+    left:80%;
+    
+}
+
+.imgperfil{
+    position:relative;
+    left: 67%;
+    width: 4%;
+    top: 130px;
+}
+
+.btncalendario{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    background-color: transparent;
+    border: 0px;
+    position:absolute; 
+    top:70%;
+    left:20%;
+    
+}
+
+.imgcalendario{
+    position:relative;
+    left: 2%;
+    width: 4%;
+    top: 440px;
+}
