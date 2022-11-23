@@ -1,11 +1,11 @@
 <?php
 
+// conectando ao banco
+
 $GLOBALS['db_host'] = "localhost";
 $GLOBALS['bd_usuario'] = "root";
 $GLOBALS['bd_senha'] = "";
 $GLOBALS['bd'] = "test";
-$con=conexao_bd('mysql'); 
-
 
 function conexao_bd($tipo_bd){
 
@@ -51,10 +51,25 @@ function conexao_bd($tipo_bd){
 	}
 }
 
-echo "<pre>";
+$usuario = $_POST['usuario'];
+$entrar = $_POST['entrar'];
+$senha = md5($_POST['senha']);
+$con=conexao_bd('mysql'); 
 
 
-$con->query("SELECT * FROM test.usuario WHERE usuario = '$usuario' AND senha='$senha' ") or die ('erro ao selecionar');
+  if (isset($entrar)) {
 
-
+    $verifica = $con->query("SELECT * FROM test.usuario WHERE usuario =
+    '$usuario' AND senha = '$senha'") or die("erro ao selecionar");
+      if (mysqli_num_rows($verifica)<=0){
+        echo"<script language='javascript' type='text/javascript'>
+        alert('Login e/ou senha incorretos');window.location
+        .href='login.html';</script>";
+        die();
+      }else{
+        setcookie("usuario",$usuario);
+        header("Location:index.php");
+      }
+  }
+  
 ?>

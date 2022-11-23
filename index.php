@@ -1,7 +1,7 @@
 <?php
-  $login_cookie = $_COOKIE['login'];
-    if(isset($login_cookie)){
-      echo"Bem-Vindo, $login_cookie <br>";
+  $usuario_cookie = $_COOKIE['usuario'];
+    if(isset($usuario_cookie)){
+      echo"Bem-Vindo, $usuario_cookie <br>";
       echo"Essas informações <font color='red'>PODEM</font> ser acessadas por você";
     }else{
       echo"Bem-Vindo, convidado <br>";
