@@ -50,6 +50,8 @@ function conexao_bd($tipo_bd){
 }
 echo "<pre>";
 print_r($_REQUEST);
+
+
 $con->query("INSERT INTO test.usuario(usuario, email, senha)VALUES('".$_REQUEST["usuario"]."', '".$_REQUEST["email"]."', '".$_REQUEST["senha"]."')");
 
 
