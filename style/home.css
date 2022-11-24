@@ -165,10 +165,10 @@ nav{
 }
 
 .imgatividade{
-    position:relative;
-    left: 15%;
+    position:absolute;
+    left: 16%;
     width: 4%;
-    top: 130px;
+    top: 28%;
 }
 
 .btnnotas{
@@ -184,10 +184,10 @@ nav{
 }
 
 .imgnotas{
-    position:relative;
-    left: 41%;
+    position:absolute;
+    left: 46%;
     width: 4%;
-    top: 130px;
+    top: 28%;
 }
 
 .btnperfil{
@@ -203,10 +203,10 @@ nav{
 }
 
 .imgperfil{
-    position:relative;
-    left: 67%;
+    position:absolute;
+    left: 76%;
     width: 4%;
-    top: 130px;
+    top: 28%;
 }
 
 .btncalendario{
@@ -215,15 +215,55 @@ nav{
     font-size: 30px;
     background-color: transparent;
     border: 0px;
-    position:absolute; 
+    position: absolute; 
     top:70%;
     left:20%;
+    
     
 }
 
 .imgcalendario{
-    position:relative;
-    left: 2%;
+    position: absolute;
+    left: 16%;
     width: 4%;
-    top: 440px;
+    top: 68%;
+
+}
+
+.btnhorario{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    background-color: transparent;
+    border: 0px;
+    position:absolute; 
+    top:68%;
+    left:50%;
+    
+}
+
+.imghorario{
+    position:absolute;
+    left: 46%;
+    width: 4%;
+    top: 68%;
+}
+
+.btnmanual{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    background-color: transparent;
+    border: 0px;
+    position:absolute; 
+    top:68%;
+    left:80%;
+    
+}
+
+.imgmanual{
+    position:absolute;
+    left: 76%;
+    width: 4%;
+    top: 68%;
 }
