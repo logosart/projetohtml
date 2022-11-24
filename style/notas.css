@@ -43,3 +43,49 @@
     background-color: #192D75;
     color: #FFFF;
 }
+
+.linkhome{
+    position: absolute;
+    background-color: transparent;
+    border: 0px;
+    font-size: 20px;
+    top: 13.4%;
+    left: 14.2%;
+}
+
+.linkatividades{
+    position: absolute;
+    background-color: transparent;
+    border: 0px;
+    font-size: 20px;
+    top: 13.4%;
+    left: 28.5%;
+}
+
+.linknotas{
+    position: absolute;
+    background-color: transparent;
+    border: 0px;
+    font-size: 20px;
+    top: 13.4%;
+    left: 44.2%;
+}
+
+.linkperfil{
+    position: absolute;
+    background-color: transparent;
+    border: 0px;
+    font-size: 20px;
+    top: 13.4%;
+    left: 58.4%;
+}
+
+.linkcalendario{
+    position: absolute;
+    background-color: transparent;
+    border: 0px;
+    font-size: 20px;
+    top: 13.4%;
+    left: 72.6%;
+}
+
