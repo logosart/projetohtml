@@ -6,7 +6,9 @@ $GLOBALS['db_host'] = "localhost";
 $GLOBALS['bd_usuario'] = "root";
 $GLOBALS['bd_senha'] = "";
 $GLOBALS['bd'] = "test";
-$conexao= mysqli_connect("localhost","root","","test") or die("não deu");
+$con=conexao_bd('mysql'); 
+$GLOBALS['bd_senha'] = "luquetes10";
+$GLOBALS['bd'] = "sys";
 
 function conexao_bd($tipo_bd){
 
@@ -17,19 +19,7 @@ function conexao_bd($tipo_bd){
 		     if($mysqli->select_db($GLOBALS['bd'])){
        			// echo 'O banco dedaos '.$GLOBALS['bd'].' existe!<br>';
            }else{        
-		        echo '<script type="text/javascript">
-		               form_cria_bd();
-		               $("#myModal").modal();
-		               function form_cria_bd(){
-			                $.ajax({
-			                      url: "mvc/view/padrao/bd/form_criar_bd.php",
-			                      cache: false
-			                }).done(function( html ) {
-			                    $( "#div_editar" ).empty();
-			                    $( "#div_editar" ).append( html );
-			                });
-			            }
-		              </script>';
+		        echo 'erro ao conectar no bd...';
            }
 
 
@@ -55,13 +45,12 @@ function conexao_bd($tipo_bd){
 $usuario = $_POST['usuario'];
 $entrar = $_POST['entrar'];
 $senha = md5($_POST['senha']);
- 
-
 
   if (isset($entrar)) {
-	$verifica = $conexao->query("SELECT usuario,senha FROM test.usuario WHERE usuario =
+	$verifica = $conexao->query("SELECT usuario,senha FROM usuarios WHERE usuario =
     '$usuario' AND senha = '$senha'") or die("erro ao selecionar");
-	  
+	  var_dump($verifica);
+      echo "deu certo";
 	  if (mysqli_num_rows($verifica)<=0){
         echo"<script language='javascript' type='text/javascript'>
         alert('Login e/ou senha incorretos');window.location

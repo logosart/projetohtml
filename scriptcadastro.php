@@ -1,8 +1,8 @@
 <?php
 $GLOBALS['db_host'] = "localhost";
 $GLOBALS['bd_usuario'] = "root";
-$GLOBALS['bd_senha'] = "";
-$GLOBALS['bd'] = "test";
+$GLOBALS['bd_senha'] = "luquetes10";
+$GLOBALS['bd'] = "sys";
 $con=conexao_bd('mysql'); 
 // var_dump($con);
 function conexao_bd($tipo_bd){
@@ -52,9 +52,9 @@ echo "<pre>";
 print_r($_REQUEST);
 
 
-$con->query("INSERT INTO test.usuario(usuario, email, senha)VALUES('".$_REQUEST["usuario"]."', '".$_REQUEST["email"]."', '".$_REQUEST["senha"]."')");
+$con->query("INSERT INTO sys.usuarios(usuario, email, senha)VALUES('".$_REQUEST["usuario"]."', '".$_REQUEST["email"]."', '".$_REQUEST["senha"]."')");
 
 
 
-$conexao= mysqli_connect("localhost","root","","test") or die("não deu");
+$conexao= mysqli_connect("localhost","root","luquetes10","sys") or die("não deu");
 ?>
