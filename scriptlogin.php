@@ -6,7 +6,6 @@ $GLOBALS['db_host'] = "localhost";
 $GLOBALS['bd_usuario'] = "root";
 $GLOBALS['bd_senha'] = "";
 $GLOBALS['bd'] = "test";
-$con=conexao_bd('mysql'); 
 $GLOBALS['bd_senha'] = "luquetes10";
 $GLOBALS['bd'] = "sys";
 
@@ -42,9 +41,6 @@ function conexao_bd($tipo_bd){
 	}
 }
 
-$usuario = $_POST['usuario'];
-$entrar = $_POST['entrar'];
-$senha = md5($_POST['senha']);
 
   if (isset($entrar)) {
 	$verifica = $conexao->query("SELECT usuario,senha FROM usuarios WHERE usuario =
