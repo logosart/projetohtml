@@ -41,22 +41,37 @@ function conexao_bd($tipo_bd){
 	}
 }
 
+#mostra o que esta chegando na pagina
+echo '<pre>';
+print_r($_REQUEST);
 
-  if (isset($entrar)) {
-	$verifica = $conexao->query("SELECT usuario,senha FROM usuarios WHERE usuario =
-    '$usuario' AND senha = '$senha'") or die("erro ao selecionar");
-	  var_dump($verifica);
-      echo "deu certo";
+//   if (isset($entrar)) {
+    $conexao = conexao_bd('mysql');
+    $sql = 'SELECT usuario,senha FROM usuarios WHERE usuario =\''.$_REQUEST["usuario"].'\' AND senha = \''.$_REQUEST["senha"].'\'';
+
+    echo $sql;
+	$verifica = $conexao->query($sql) or die("erro ao selecionar");
+
+    while($row =  $conexao->fetch_array($verifica)) {
+        echo print_r($row);       // Print the entire row data
+    }
+
+
+
 	  if (mysqli_num_rows($verifica)<=0){
-        echo"<script language='javascript' type='text/javascript'>
-        alert('Login e/ou senha incorretos');window.location
-        .href='login.html';</script>";
+        echo 'funcionou';
+        // echo"<script language='javascript' type='text/javascript'>
+        //         alert('Login e/ou senha incorretos');
+        //         window.location.href='login.html';
+        // </script>";
         die();
       
 	}else{
+        echo 'falhou';
+        exit;
         setcookie("usuario",$usuario);
         header("Location:index.php");
       }
-  }
+//   }
 
 ?>
