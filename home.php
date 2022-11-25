@@ -7,9 +7,9 @@
     <title>Portal do Aluno</title>
     <div class="barra"></div>
     <a href="home.html"><button class="linkhome">Home</button></a>
-    <a href="atividades.html"><button class="linkatividades">Atividades</button></a>
-    <a href="notas.html"><button class="linknotas">Notas</button></a>
-    <a href="perfil.html"><button class="linkperfil">Perfil</button></a>
+    <a href="atividades.php"><button class="linkatividades">Atividades</button></a>
+    <a href="notas.php"><button class="linknotas">Notas</button></a>
+    <a href="perfil.php"><button class="linkperfil">Perfil</button></a>
     <a href="calendario.html"><button class="linkcalendario">Calendario Acadêmico</button></a>
     <a href="horario.html"><button class="linkhorario">Horário de Aula</button></a>
     <a href="manual.html"><button class="linkmanual">Manual do Aluno</button></a>
@@ -24,7 +24,7 @@
     <a href="notas.html"><button class="btnnotas">Notas</button></a>
     <img class="imgnotas" src="imgnota.png"><img>
 
-    <a href="perfil.html"><button class="btnperfil">Perfil</button></a>
+    <a href="perfil.php"><button class="btnperfil">Perfil</button></a>
     <img class="imgperfil" src="imgperfil.png"><img>
 
     <a href="calendario.html"><button class="btncalendario">Calendario</button></a>

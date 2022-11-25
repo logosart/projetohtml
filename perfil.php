@@ -1,4 +1,8 @@
+<?php
+    session_start()
+?>
 <!DOCTYPE html>
+
 <html lang="en">
     <meta charset="UTF-8">
     <title>perfil</title>
@@ -17,7 +21,7 @@
     <a href="manual.html"><button class="linkmanual">Manual do Aluno</button></a>
     <div class="cabecalho"></div>
     <h1 class="titulo2">Perfil do Aluno</h1>
-    <h1 class="nomealuno">Mikaell de Godoy Vitorio</h1>
+    <h1 class="nomealuno"><?=$_SESSION['usuario'][0]?></h1>
     <img class="imgperfil" src="user.png"><img>
     <h1 class="registro">Registro Acadêmico</h1>
     <h1 class="numregistro">FC20220137</h1>
