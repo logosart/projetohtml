@@ -115,36 +115,16 @@ Como por exemplo o cadastro, que após algum tempo de trabalho conseguimos chega
 
 <details>
   <summary><b> <h2>Pré requisitos<h2> <b></summary>
-  <p>asgiref==3.5.2
-certifi==2022.6.15
-click==8.1.3
-colorama==0.4.5
-distlib==0.3.5
-Django==4.1
-filelock==3.8.0
-Flask==2.2.2
-gunicorn==20.1.0
-install==1.3.5
-itsdangerous==2.1.2
-Jinja2==3.1.2
-MarkupSafe==2.1.1
-pipenv==2022.8.15
-pippip==0.0.10
-platformdirs==2.5.2
-pygame==2.1.2
-sqlparse==0.4.2
-tzdata==2022.2
-virtualenv==20.16.3
-virtualenv-clone==0.5.7
-Werkzeug==2.2.2
-pip==22.2.2
-pandas~=1.5.0
-numpy~=1.23.3
-SQLAlchemy
-flask_sqlalchemy
-mysql-connector-python==8.0.31
+  <p> XAMPP 
+      PHP 
+      HTML
+      CSS 
+      MYSQL
+      DBEAVER ( PARA VISUALIZAR AS ALTERAÇÕES NO BANCO)
 
-Localizada também na pasta requeriments que vem junto ao clone.</p>
+
+
+</p>
 </details>
 
 <details>
