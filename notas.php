@@ -6,7 +6,7 @@
     <link rel="stylesheet" href= "style/notas.css" type="text/css">
 <head>
 </html>
-<body class="fundo" background="background.jpg">
+<body class="fundo" background="img/background.jpg">
     <div class="background"></div>
     <div class="back"></div>
     <h1 class="titulo">Notas</h1>

@@ -9,7 +9,7 @@
 </head>
 </head>
 
-<body background="background.jpg">
+<body background="img/background.jpg">
     <div id="form">
         <form action="scriptcadastro.php" method="post" name="form_cadastro">
             <h2 class="title">Cadastro</h2>

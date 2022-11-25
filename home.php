@@ -15,26 +15,26 @@
     <a href="manual.php"><button class="linkmanual">Manual do Aluno</button></a>
 
 </head>
-<body background="background.jpg">
+<body background="img/background.jpg">
     <div class="cabecalho"></div>
     <h1 class="titulo2">Portal do Aluno</h1>
     <a href="atividades.php"><button class="btnatividades">Atividades</button></a>
-    <img class="imgatividade" src="imgatividade.png"><img>
+    <img class="imgatividade" src="img/imgatividade.png"><img>
 
     <a href="notas.php"><button class="btnnotas">Notas</button></a>
-    <img class="imgnotas" src="imgnota.png"><img>
+    <img class="imgnotas" src="img/imgnota.png"><img>
 
     <a href="perfil.php"><button class="btnperfil">Perfil</button></a>
-    <img class="imgperfil" src="imgperfil.png"><img>
+    <img class="imgperfil" src="img/imgperfil.png"><img>
 
     <a href="calendario.php"><button class="btncalendario">Calendario</button></a>
-    <img class="imgcalendario" src="imgcalendario.png"><img>
+    <img class="imgcalendario" src="img/imgcalendario.png"><img>
 
     <a href="horario.php"><button class="btnhorario">Horario<br>de Aula</button></a>
-    <img class="imghorario" src="imghorario.png"><img>
+    <img class="imghorario" src="img/imghorario.png"><img>
 
     <a href="manual.php"><button class="btnmanual">Manual<br>do Aluno</button></a>
-    <img class="imgmanual" src="imgmanual.png"><img>
+    <img class="imgmanual" src="img/imgmanual.png"><img>
 
 </body>
 </php>
