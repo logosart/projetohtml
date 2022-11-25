@@ -113,10 +113,11 @@
 }
 
 .backativi{
+    border-radius: 10px;
     position: absolute;
-    top: 25%;
+    top: 22%;
     left: 10%;
     width: 80%;
-    height: 70%;
+    height: 75%;
 }
 
