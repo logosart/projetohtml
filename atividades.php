@@ -12,7 +12,7 @@
 </head>
 <body class="fundo" background="background.jpg">
     <div class="background"></div>
-    <img class="backativi" src="backativi1.png"><img>
+    <img class="backativi" src="backativi2.png"><img>
     <title>Atividades</title>
     <div class="barra"></div>
     <a href="home.php"><button class="linkhome">Home</button></a>
