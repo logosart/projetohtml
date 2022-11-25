@@ -130,7 +130,7 @@ Como por exemplo o cadastro, que após algum tempo de trabalho conseguimos chega
 <details>
   <summary><b> <h2>Como rodar a aplicação<h2> <b></summary>
   <p>No terminal, clone o projeto:
-git clone https://github.com/logosart/trabalho_flask
+git clone https://github.com/logosart/projetohtml
 Após isso verifique se todos os pré_requisitos foram instalados, abra a pasta main.py e de Run, após isso pegue o link gerado no terminal e entre.</p>
 </details>
 
