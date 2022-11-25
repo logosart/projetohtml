@@ -51,8 +51,9 @@ print_r($_REQUEST);
 
     echo $sql;
 	$verifica = $conexao->query($sql) or die("erro ao selecionar");
-
-    while($row =  $conexao->fetch_array($verifica)) {
+// adicionei o mysqli antes do fecht pra testar se funciona depois
+   
+while($row =  $conexao->mysqli_fetch_array($verifica)) {
         echo print_r($row);       // Print the entire row data
     }
 
