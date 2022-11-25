@@ -1,14 +1,10 @@
 <?php
-session_start();
-// conectando ao banco
-
 $GLOBALS['db_host'] = "localhost";
 $GLOBALS['bd_usuario'] = "root";
 $GLOBALS['bd_senha'] = "";
 $GLOBALS['bd'] = "test";
-// $GLOBALS['bd_senha'] = "luquetes10";
-// $GLOBALS['bd'] = "sys";
-
+$con=conexao_bd('mysql'); 
+// var_dump($con);
 function conexao_bd($tipo_bd){
 
 	if($tipo_bd == 'mysql'){
@@ -18,7 +14,19 @@ function conexao_bd($tipo_bd){
 		     if($mysqli->select_db($GLOBALS['bd'])){
        			// echo 'O banco dedaos '.$GLOBALS['bd'].' existe!<br>';
            }else{        
-		        echo 'erro ao conectar no bd...';
+		        echo '<script type="text/javascript">
+		               form_cria_bd();
+		               $("#myModal").modal();
+		               function form_cria_bd(){
+			                $.ajax({
+			                      url: "mvc/view/padrao/bd/form_criar_bd.php",
+			                      cache: false
+			                }).done(function( html ) {
+			                    $( "#div_editar" ).empty();
+			                    $( "#div_editar" ).append( html );
+			                });
+			            }
+		              </script>';
            }
 
 
@@ -40,24 +48,17 @@ function conexao_bd($tipo_bd){
 			return $con;
 	}
 }
+// echo "<pre>";
+// print_r($_REQUEST);
 
-function s($var){
-	echo '<pre>';
-	if(is_array($var)){
-		print_r($var);
-	}else{
-	  echo $var;
-	}
-	echo '</pre>';
-}
+$con->query("INSERT INTO test.disciplinas(dname)VALUES('".$_REQUEST["name"]."')");
+header("Location:index.php");
 
-function getUsuario($session_id){
-    $_SESSION['session_id'];
-    #consulta que traz o usuario
-    #return $usuario
-}
 
-function getname($usuario){
-    $_SESSION['usuario'] = $usuario;
-}
+
+
+$conexao= mysqli_connect("localhost","root","","test") or die("não deu");
 ?>
+
+
+

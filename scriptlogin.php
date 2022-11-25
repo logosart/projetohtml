@@ -7,7 +7,7 @@ s(session_id());
 $arr = array();
 //   if (isset($entrar)) {
     $conexao = conexao_bd('mysql');
-    $sql = 'SELECT usuario,senha FROM usuarios WHERE usuario =\''.$_REQUEST["usuario"].'\' AND senha = \''.$_REQUEST["senha"].'\'';
+    $sql = 'SELECT usuario,senha FROM test.usuario WHERE usuario =\''.$_REQUEST["usuario"].'\' AND senha = \''.$_REQUEST["senha"].'\'';
 	$resposta = $conexao->query($sql) or die("erro ao selecionar");
 
 	while($consulta = $resposta->fetch_array()){
@@ -19,8 +19,8 @@ $arr = array();
 	  	$_SESSION['usuario'] = $usuario;
 		$_SESSION["session_id"] = session_id();
 		
-        setcookie("usuario",$usuario);
-        header("Location:home.php");
+        // setcookie("usuario",$usuario);
+        header("Location:index.php");
 		exit;
 			
 	  	#inserir sessio id no banco

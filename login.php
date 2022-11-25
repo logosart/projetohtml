@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
     <title> Login </title>
+    <link rel="stylesheet" href= "style/login.css" type="text/css">
     </head>
     <body>
     <form method="POST" action="scriptlogin.php">

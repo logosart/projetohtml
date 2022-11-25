@@ -1,5 +1,6 @@
 <?php
     session_start()
+    
 ?>
 <!DOCTYPE html>
 
@@ -23,34 +24,21 @@
     <h1 class="titulo2">Perfil do Aluno</h1>
     <h1 class="nomealuno"><?=$_SESSION['usuario'][0]?></h1>
     <img class="imgperfil" src="user.png"><img>
-    <h1 class="registro">Registro Acadêmico</h1>
-    <h1 class="numregistro">FC20220137</h1>
-    <h1 class="curso">Curso</h1>
-    <h1 class="namecurso">Engenharia de Software</h1>
-    <h1 class="turno">Turno</h1>
-    <h1 class="numturno">Noturno</h1>
+    <h1 class="registro">Numero de sessão</h1>
+    <h1 class="numregistro"><?=$_SESSION['session_id'] ?> </h1>
     <h1 class="dados">Dados Pessoais</h1>
-    <h1 class="nomedados">Data de Nascimento: 13/09/2004<br>Estado Natal: Tocantins<br>Naturalidade: Palmas</h1>
-    <h1 class="contato">Contato</h1>
-    <h1 class="email">E-mail</h1>
+    <h1 class="nomedados"><br><br></h1>
+    <h1 class="email"></h1>
     <div class="fundoemail"></div>
-    <h1 class="nomeemail">contato@email.com</h1>
-    <h1 class="telefone">Telefone Residencial</h1>
-    <div class="fundotel"></div>
-    <h1 class="numtel">(63)3333-3333</h1>
-    <h1 class="telefonecel">Telefone Celular</h1>
-    <div class="fundotelcel"></div>
-    <h1 class="numtelcel">(63)99999-9999</h1>
-    <h1 class="endereco">Endereço</h1>
-    <h1 class="cep">CEP</h1>
-    <div class="fundocep"></div>
-    <h1 class="numcep">77777-777</h1>
-    <h1 class="nomeender">Endereço</h1>
+    <h1 class="cep"></h1>
+
+    <h1 class="numcep"></h1>
+    <h1 class="nomeender"></h1>
     <div class="fundoender"></div>
-    <h1 class="numender">222 Sul Alameda 22</h1>
-    <h1 class="num">Número</h1>
+    <h1 class="numender"></h1>
+    <h1 class="num"></h1>
     <div class="fundonumero"></div>
-    <h1 class="numnumero">22</h1>
+    <h1 class="numnumero"></h1>
     <div class="backconq"></div>
     <h1 class="conquistas">Quadro de Conquistas</h1>
     <img class="ouro" src="ouro.png"><img>
