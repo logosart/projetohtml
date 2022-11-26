@@ -37,9 +37,11 @@ Os pontos são considerados um sistema de recompensa que evidenciam aos alunos s
 
  <details>
   <summary><b> <h2>Primeiros Passos<h2> <b></summary>
-  <p>Criamos algumas páginas em .html como a "homepage", "notas", "users", "login", "cadastro", que serão nossas prioridades iniciais.
+  <p>Criamos algumas rotas como cadastro, login e a homepage.
+    Começamos com a rota de cadastro, que após um tempo, ficou dessa maneira.
 
-![primeirospassos](https://user-images.githubusercontent.com/114426524/195723442-dde8dd20-4e24-4994-b256-ab20b8f2b637.png)</p>
+![image](https://user-images.githubusercontent.com/114426524/204066671-9a61468f-1b82-4a04-aeaf-ac39b30245d0.png)
+</p>
 </details>
 
 <details>
@@ -49,9 +51,9 @@ Aqui está o .php da rota de "atividades"
 
 ![image](https://user-images.githubusercontent.com/114426524/204066192-a284236c-017f-4f5b-a2b4-4a6cef1c3aa4.png)
 
-Outro exemplo é o .php da rota "Login"
+Outro exemplo é o .php da rota "home"
 
-![image](https://user-images.githubusercontent.com/114426524/204066306-a14fe92b-029b-49d6-9f9a-3e1365fcf488.png)
+![image](https://user-images.githubusercontent.com/114426524/204066742-96aa5701-8e7d-4e14-89eb-0409b2dfbfef.png)
 
 </p>
 </details>
