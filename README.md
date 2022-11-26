@@ -14,7 +14,7 @@ Vamos progamar utilizando o pycharm como editor de código, o PHP voltado para d
 
 <details>
   <summary> <b> <h2> Tecnologias utilizadas <h2> <b> </summary>
-  <p>O PyCharm é o melhor IDE, você pode acessar a linha de comando, conectar-se a um banco de dados, criar um ambiente virtual e gerenciar seu sistema de controle de versão em um só lugar, economizando tempo por não precisar alternar constantemente entre janelas. 
+  <p>O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Ele inclui suporte para depuração, controle de versionamento Git incorporado, realce de sintaxe, complementação inteligente de código, snippets e refatoração de código.
 
 O GitHub é um serviço baseado em nuvem que hospeda um sistema de controle de versão (VCS) chamado Git. Ele permite que os desenvolvedores colaborem e façam mudanças em projetos compartilhados enquanto mantêm um registro detalhado do seu progresso.
 
@@ -43,17 +43,25 @@ Os pontos são considerados um sistema de recompensa que evidenciam aos alunos s
 </details>
 
 <details>
-  <summary><b> <h2>HTML<h2> <b></summary>
-  <p>Após definir as páginas começamos a dar uma "cara" a elas, através do html definimos cores, moldes, tabelas, dentro da página web.
+  <summary><b> <h2>PHP<h2> <b></summary>
+  <p>
+Aqui está o .php da rota de "atividades"
 
-![WhatsApp Image 2022-10-28 at 19 36 13](https://user-images.githubusercontent.com/114426524/198746055-54d75cd9-07fa-48af-9e4a-01eecf20c9ac.jpeg)
+![image](https://user-images.githubusercontent.com/114426524/204066192-a284236c-017f-4f5b-a2b4-4a6cef1c3aa4.png)
 
-Como por exemplo o cadastro, que após algum tempo de trabalho conseguimos chegar a algo que todos concordaram que está bom.</p>
+Outro exemplo é o .php da rota "Login"
+
+![image](https://user-images.githubusercontent.com/114426524/204066306-a14fe92b-029b-49d6-9f9a-3e1365fcf488.png)
+
+</p>
 </details>
 
 <details>
   <summary><b> <h2>Banco de Dados<h2> <b></summary>
   <p>Estrutura do banco de dados:
+  
+A estrutura foi feita em modelos menores para teste.  
+  
 {
   "Alunos": {
     "AlMatricula": 0, /Int/
@@ -97,12 +105,6 @@ Como por exemplo o cadastro, que após algum tempo de trabalho conseguimos chega
     "Sexo": "" /string/
   },
   
-  "Professor": {
-    "Graduação": 0, /Int/
-    "IdPessoa": 0, /Int/
-    "ProfMatricula": 0 /Int/
-  }
-}
 <details>
   <summary> <b> <h3>Modelo-Lógico-BD<h3> <b> </summary>
   <p>Para que nosso banco de dados fosse bem estruturado, antes realizamos a criação do Modelo lógico através do Draw.io, onde ajudou posteriormente para que o banco seja conectado de forma eficaz.
@@ -129,9 +131,7 @@ Como por exemplo o cadastro, que após algum tempo de trabalho conseguimos chega
 
 <details>
   <summary><b> <h2>Como rodar a aplicação<h2> <b></summary>
-  <p>No terminal, clone o projeto:
-git clone https://github.com/logosart/projetohtml
-Após isso verifique se todos os pré_requisitos foram instalados, abra a pasta main.py e de Run, após isso pegue o link gerado no terminal e entre.</p>
+  <p>Baixe o Xampp, após isso cole o repositório no htdocs, depois no painel de controle do Xampp ativa o Apache e o Mysql e vá para "localhost" e execute o .php. </p>
 </details>
 
 <details>
@@ -140,28 +140,35 @@ Após isso verifique se todos os pré_requisitos foram instalados, abra a pasta 
 
 **Rota de acesso para página inicial**
 
-http://127.0.0.1:5000/
+http://localhost/projetohtml/home.php
 
 **Rota de acesso dos usuários para realizarem seu login**
 
-http://127.0.0.1:5000/login
+http://localhost/projetohtml/login.php
 
 **Rota de acesso dos usuários para realizarem o cadastro**
 
-http://127.0.0.1:5000/cadastro
+http://localhost/projetohtml/cadastro.php
 
-**Rota de acesso para cadastro do professor**
+**Rota do usuário para acessar notas**
 
-http://127.0.0.1:5000/cadastro_professor
-
-**Rota de acesso do usuário onde só ele poderá ver suas notas e médias**
-
-http://127.0.0.1:5000/notas
+http://localhost/projetohtml/notas.php
 
 **Rota de acesso do usuário para entrar no seu perfil**
 
-http://127.0.0.1:5000/users/%3Cnome_usuario%3E</p>
+http://localhost/projetohtml/perfil.php
+
+**Rota de acesso do usuário para entrar nas atividades**
+
+http://localhost/projetohtml/atividades.php
+
+**Rota de acesso para adicionar matéria**
+
+http://localhost/projetohtml/cdis.php
+
+</p>
 </details>
+
 
 <details>
   <summary><b> <h2>Histórias de usuário<h2> <b></summary>
